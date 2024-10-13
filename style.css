@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3c78b4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family:serif;
+}
+
+.actPic {
+    float:right;
+    padding: 20px;
+    }
+    
+.actPic img {
+    display: block;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#url {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0px 10px 100px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin:0px 100px 10px 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3c78b4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px 100px 50px 100px;
+}
+
+.conTact {
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #204264;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3c78b4;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: monospace;
+}

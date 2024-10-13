@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiehen's Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .a{margin-left: 20px;}
+    </style>
+    <script src="https://kit.fontawesome.com/a5cfcc02b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>歡迎來到 Chiehen's Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#contact">留言板</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="actPic">
+        <img src="personalPage.jpg" width="175" height="300" alt="個人照">
+    </div>
+    <main>
+        <section id="home">
+            <h2><i class="fa-solid fa-arrow-right"></i> 首頁</h2>
+            <p>歡迎來到我的個人網頁～ </p>
+        </section>
+
+        <section id="about">
+            <h2><i class="fa-solid fa-user"></i> 關於我</h2>
+            <p>大家好！我是 Chiehen，目前大二，MBTI是INFJ，是一個喜歡追星、看劇、喝咖啡、玩遊戲……興趣有點多的人。</p>
+            
+        </section>
+        <section class="url">
+            <span style="color:aliceblue;background-color: cornflowerblue;font-size:16px ;">關於我的連結：</span>
+            <a href="https://www.instagram.com/en_c.c.n?igsh=ZjhoeDZ6YnYycm9m&utm_source=qr" target="_blank">IG</a>   
+            <a class="a" href="https://www.instagram.com/fju_coffee_club/profilecard/?igsh=a3o1eXlkdjlydGFt" target="_blank">輔大咖啡研究社</a>
+        </section>
+        <hr style="margin:50px 0px 50px 0px;">
+        <section id="contact" class="conTact">
+            
+            <h2 ><i class="fa-solid fa-comment"></i> 留言板</h2>
+            <form id="contactForm">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">留言:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">送出</button>
+            </form>
+            <p id="successMessage" style="display:none;">您的訊息已送出！</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chiehen's Page. 保留所有權利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
