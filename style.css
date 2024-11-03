@@ -71,7 +71,35 @@ form input, form textarea {
     border-radius: 4px;
 }
 
-button {
+#varietyshow{
+    background-color: #9867c7;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    
+    
+}
+
+.varietymessage{
+    color: #9867c7;
+}
+
+#drama{
+    background-color: #9867c7;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    
+    
+}
+
+.dramamessage{
+    color: #9867c7;
+}
+
+#submit {
     background-color: #3c78b4;
     color: white;
     padding: 10px;
